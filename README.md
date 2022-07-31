@@ -31,4 +31,7 @@ Using loan applicaton data from over 34,000 organizations, a binary classifier i
 
 ### Compiling, Training, and Evaluating the Model
 
-- The training model was put together using an input and two hidden layers. 80 neurons are used in the input and 30 in the second layer. The 
+- The training model was put together using an input and two hidden layers. 80 neurons are used in the input and 30 in the second layer. The the activation functions for the input and second layer were relu, and the sigmoid function was used for output
+- Using this revised dataset I was able to reach the target model performance with the same model setup as was used in Deliverable 2. 
+
+![modaccuracy1](
