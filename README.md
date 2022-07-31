@@ -36,4 +36,10 @@ Using loan applicaton data from over 34,000 organizations, a binary classifier i
 
 ![modaccuracy1](https://github.com/mein0819/Neural_Network_Charity_Analysis/blob/main/readMeImages/modAccuracy1.png)
 
-- Having reached the target in the first attempt, I tested the model to see if it could be improved even more. I added a hidden layer with 10 neurons and increased the epochs from 100 to 500. 
+- Having reached the target in the first attempt, I tested the model to see if it could be improved even more. I added a hidden layer with 10 neurons and increased the epochs from 100 to 500. The model accuracy increased slightly with this setup, although not as much as the data loss increased
+
+![modaccuracy2](https://github.com/mein0819/Neural_Network_Charity_Analysis/blob/main/readMeImages/modAccuracy2.png)
+
+## Summary
+
+Overall, eliminating outliers in the data and adding the NAME feature increased the model accuracy to go beyond the target performance, even reaching 80% accuracy and down to around 40% loss through many epochs. Increasing the layers and epochs actually decreased the efficiency of the model. Because I had reached the target I ran a random forest classifier, one of the most popular and efficient binary classifier model, on the data to see if there was significant difference in accuracy and it came out as the same as what was achieved in the second optimization attempt. 
