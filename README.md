@@ -21,8 +21,10 @@ Using loan applicaton data from over 34,000 organizations, a binary classifier i
 - Columns NAME, APPLICATION_TYPE, CLASSIFICATION, and ASK_AMT were each binned to group outlier or rare categorical values
 - Keeping the NAME column for this dataset was a choice made to test whether the number of times an organization applied for funding had an affect on the outcome
 
-![namebinning](
+![namebinning](https://github.com/mein0819/Neural_Network_Charity_Analysis/blob/main/readMeImages/nameBinning.png)
 - Binning the ASK_AMT column was done to group the wide range of values in the column and clean up outliers to help optimize the dataset
+
+![askamntbinning](
 - One variable was dropped from the dataset, EIN
 
 ### Compiling, Training, and Evaluating the Model
