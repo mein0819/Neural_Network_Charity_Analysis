@@ -34,4 +34,6 @@ Using loan applicaton data from over 34,000 organizations, a binary classifier i
 - The training model was put together using an input and two hidden layers. 80 neurons are used in the input and 30 in the second layer. The the activation functions for the input and second layer were relu, and the sigmoid function was used for output
 - Using this revised dataset I was able to reach the target model performance with the same model setup as was used in Deliverable 2. 
 
-![modaccuracy1](
+![modaccuracy1](https://github.com/mein0819/Neural_Network_Charity_Analysis/blob/main/readMeImages/modAccuracy1.png)
+
+- Having reached the target in the first attempt, I tested the model to see if it could be improved even more. I added a hidden layer with 10 neurons and increased the epochs from 100 to 500. 
